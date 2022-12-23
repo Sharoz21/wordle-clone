@@ -1,0 +1,27 @@
+.key {
+  text-transform: uppercase;
+  background: #d3d6da;
+  padding: 1.25rem 1rem;
+  margin: 0.25rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.15rem;
+  font-weight: 600;
+}
+
+[data-state] {
+  color: #fff;
+}
+
+[data-state="present"] {
+  background: #c9b458;
+}
+
+[data-state="correct"] {
+  background: #6aaa64;
+}
+
+[data-state="absent"] {
+  background: #787c7e;
+}

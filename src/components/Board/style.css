@@ -1,0 +1,28 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+}
+
+.correct,
+.present,
+.absent {
+  color: #fff;
+  border-color: transparent;
+}
+
+.correct {
+  background: #6aaa64;
+}
+
+.present {
+  background: #b59f3b;
+}
+
+.absent {
+  background: #787c7e;
+}
